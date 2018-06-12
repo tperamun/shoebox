@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> ShoeBox </title>
+	<script src="scripts/signup.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+<link rel="stylesheet" tyle="text/css" href="styles.css">
+	
+	
+</head>
+
+<body>
+	
+		<div id="back"> 
+			<div class="backright"> </div>
+			<div class="backleft"> </div>
+		</div>
+		
+		<div id="slidebox">
+		
+			<div class="toplayer">
+			
+				<div class="left">
+					<div class="content">
+					
+						<h2><b> SIGN UP </b> </h2>
+						<form id="sign-up-form" action="" method="post">
+						
+							<div class="form-group"> 
+								<input type="text" name="email" placeholder="Email">
+								<input type="text" name="username" placeholder="Username">
+								<input type="text" name="sign-up-password" placeholder="Password">
+							</div>
+						
+						
+						</form>
+						<button id="goleft" class="off"> Login </button>
+						<button onclick="getSignUpData()" > Sign up </button>
+						
+
+					 </div>
+				</div>
+				
+				
+					<div class="right">
+						<div class="content">
+						
+							<h2><b> LOGIN </b> </h2>
+							<form id="login-form" action="" method="post">
+							
+								<div class="form-group"> 
+									
+									<input type="text" name="emailorusername" placeholder="Email or Username">
+									<input type="text" name="login-password" placeholder="Password">
+									
+								</div>
+							
+							</form>
+							<button id="goright" class="off"> Sign Up </button>
+							<button type="submit" form="login-form" value="submit"> Login </button>
+						
+						 </div>
+					</div>
+				
+				</div>
+		
+		
+		</div>
+		<script src ="scripts/frontend.js"></script>
+		
+		
+		
+		
+</body>
+
+</html>
